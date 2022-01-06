@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.mat-sidenav-container{
+    height: 100%;
+}
+.mat-sidenav , mat-sidenav-content{
+    padding: 16px;
+}
+.mat-sidenav{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    width: 300px;
+   
+}
+.menu{
+    border: none;
+}
+.mat-icon{
+    margin: 15px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(177, 174, 170);
+    font-size: 16px;
+    border: none;
+    border: 1px solid rgb(177, 174, 170);
+    float: left;
+}
+.button{
+    float: right;
+    background-color: rgb(24, 23, 23);
+    border: none;
+    color: rgb(177, 174, 170);
+    margin-right: 200px;
+    
+}
+h5{
+    font-size: 18px;
+}
+.matbutton{
+    background-color:rgb(24, 23, 23);
+    color: white;
+    border: none;
+}

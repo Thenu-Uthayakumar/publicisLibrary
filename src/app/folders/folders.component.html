@@ -1,0 +1,33 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav  mode="side" [(opened)]="opened">
+        <button class="matbutton" ng-click="myStyle={background-color:'red';}"><mat-icon >add</mat-icon></button>
+        <button class="matbutton"><mat-icon>create_new_folders</mat-icon></button>
+        <button class="matbutton"><mat-icon>upload</mat-icon></button>
+        <button class="matbutton"><mat-icon>refresh</mat-icon></button>
+        <div class="container">
+        <input type="text"  placeholder="Search" class="search">
+        <!-- <button type="submit" class="button">
+           <mat-icon>search</mat-icon>
+        </button> -->
+        </div>
+      
+        
+        <br><br><br>
+        <hr>
+        <br>
+        <h5 *ngFor="let item of menudatas">
+            &nbsp;
+                <mat-icon style="margin: 0px;float: left;">calendar_view_week</mat-icon>
+               
+            
+           
+                {{item}}
+           
+        </h5>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+        
+    </mat-sidenav-content>
+</mat-sidenav-container>
