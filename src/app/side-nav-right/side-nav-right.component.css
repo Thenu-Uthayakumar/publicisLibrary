@@ -1,20 +1,17 @@
+.side-nav-container {
+  position: fixed;
+  right: 0;
+  list-style-type: none;
+  margin: 0;
 
-.sidenavrightcontainer{
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 30px;
-    background-color:  rgb(56, 55, 55);
-    height: 100%;
-    overflow-x: hidden;
-    z-index: 1;
- 
+  background-color: rgb(56, 55, 55);
+  height: calc(100vh - 34px);
+  top: 34px;
+  z-index: 1;
 }
-.sidenavrightcontainer .sidebuttonright{
-    display: block;
-    width: 60px;
-    color: white;
-    margin-top: 25px;
-  
+.side-nav-container .mat-icon {
+  display: block;
+  color: white;
+  margin-top: 22px;
+  padding: 6px;
 }

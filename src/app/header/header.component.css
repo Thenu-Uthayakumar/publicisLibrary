@@ -1,24 +1,31 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
-.headercontainer{
-    background-color: rgb(56, 55, 55);
-    position:fixed;
-    z-index: -1;
-    width: 100%;
-    float: right;
+.header-container {
+  background-color: rgb(56, 55, 55);
+  position: fixed;
+  width: 100%;
+  float: right;
+  height: 22px;
+  padding: 6px;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    float: right;
-    margin-right: 960px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-left: 40px;
 }
-li{
-    display: inline;
-    color: rgb(170, 166, 166);
-    margin-left: 10px;
-    
+li {
+  display: inline;
+  color: rgb(170, 166, 166);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.logo {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  left: 8px;
 }

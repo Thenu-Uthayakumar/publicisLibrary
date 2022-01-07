@@ -1,35 +1,30 @@
-<head>
-  
-</head>
 <mat-sidenav-container>
-    <mat-sidenav-content #sidenav  mode="side" >
-        <button class="matbutton"><mat-icon >add</mat-icon></button>
-        <button class="matbutton"><mat-icon>create_new_folders</mat-icon></button>
-        <button class="matbutton"><mat-icon>upload</mat-icon></button>
-        <button class="matbutton"><mat-icon>refresh</mat-icon></button>
-
-        <div class="container">
-        <input type="text"  placeholder="Search" class="search">
-        <button type="submit" class="button">
-           <mat-icon>search</mat-icon>
-        </button>
-        </div>
-      
-    <div class="menudatas">
-        <ul>
-
-            <li *ngFor="let item of menudatas">
-        
-                <mat-icon class="tableicons">calendar_view_week</mat-icon>
-        
-                {{item}}
-        
-            </li>
-        
-        </ul>
+  <mat-sidenav-content #sidenav mode="side">
+    <button class="mat-button">
+      <mat-icon>add</mat-icon>
+    </button>
+    <button class="mat-button">
+      <mat-icon>create_new_folders</mat-icon>
+    </button>
+    <button class="mat-button">
+      <mat-icon>upload</mat-icon>
+    </button>
+    <button class="mat-button">
+      <mat-icon>refresh</mat-icon>
+    </button>
+    <div class="container">
+      <input type="text" placeholder="Search" class="search">
+      <button type="submit" class="button">
+        <mat-icon>search</mat-icon>
+      </button>
     </div>
-      
-
-    </mat-sidenav-content>
-  
+    <div class="menudatas">
+      <ul>
+        <li *ngFor="let item of menudatas">
+          <mat-icon class="tableicons">calendar_view_week</mat-icon>
+          {{item}}
+        </li>
+      </ul>
+    </div>
+  </mat-sidenav-content>
 </mat-sidenav-container>

@@ -1,60 +1,55 @@
-*{
-    margin: 0;
-
-   
+* {
+  margin: 0;
 }
-.mat-sidenav-container{
-    height: 100%;
-    float: left;
-    z-index:1;
-    background-color: rgb(34, 33, 33);
-    margin-top: 39px;
-    margin-left: 20px;
-   
+.mat-sidenav-container {
+  height: 100%;
+  float: left;
+  z-index: 1;
+  background-color: rgb(34, 33, 33);
+  margin-top: 39px;
+  margin-left: 20px;
 }
-.mat-sidenav-content{
-    padding: 16px;
+.mat-sidenav-content {
+  padding: 16px;
 }
-.mat-sidenav-content{
-    background-color: rgb(34, 33, 33);
-    color: white;
-    width: 400px;
-   
+.mat-sidenav-content {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  width: 400px;
 }
-.menu{
-    border: none;
+.menu {
+  border: none;
 }
-.matbutton{
-    margin: 15px;
-    
+.mat-button {
+  margin: 15px;
 }
-.matbutton{
-    background-color: rgb(34, 33, 33);
-    color: white;
-    border: none;
+.mat-button {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  border: none;
 }
-.matbutton:hover{
-    width: 86px;
-    background-color: #a29367;
-    cursor: pointer;
+.mat-button:hover {
+  width: 86px;
+  background-color: #a29367;
+  cursor: pointer;
 }
 
-input{
-    padding: 5px;
-    font-size: 17px;
-    border: 1px solid rgb(105, 104, 104);
-    float: left;
-    height: 20px;
-    width: 350px;
-    background: rgb(34, 33, 33);
-    position: relative;
+input {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid rgb(105, 104, 104);
+  float: left;
+  height: 20px;
+  width: 350px;
+  background: rgb(34, 33, 33);
+  position: relative;
 }
-.button{
+.button {
   float: left;
   position: absolute;
-  width:20px;
+  width: 20px;
   height: 2px;
-  top:80px;
+  top: 80px;
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -62,36 +57,32 @@ input{
   background-color: rgb(34, 33, 33);
   color: rgb(170, 166, 166);
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: rgb(173, 166, 166);
-    font-size: 16px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(173, 166, 166);
+  font-size: 16px;
 }
-li{
-    display: block;
-   
-    padding: 8px 16px;
-}
-.tableicons{
-    color: #43a047;
-    float: left;
-   
-   
-}
-.tableicons:hover{
-    color:white;
-    cursor: pointer;
-}
-ul li:hover{
-    color: black;
-    background-color: #a29367;
-    cursor: pointer;
-    
-}
-.menudatas{
-    margin-top: 10px;
-    float: left;
-}
+li {
+  display: block;
 
+  padding: 8px 16px;
+}
+.tableicons {
+  color: #43a047;
+  float: left;
+}
+.tableicons:hover {
+  color: white;
+  cursor: pointer;
+}
+ul li:hover {
+  color: black;
+  background-color: #a29367;
+  cursor: pointer;
+}
+.menudatas {
+  margin-top: 10px;
+  float: left;
+}
