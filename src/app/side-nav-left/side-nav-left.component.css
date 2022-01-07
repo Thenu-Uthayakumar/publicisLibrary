@@ -1,0 +1,19 @@
+.sidenavcontainer{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    background-color:  rgb(56, 55, 55);
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+  
+}
+.sidenavcontainer .mat-icon{
+    display: block;
+    width: 60px;
+    color: white;
+    margin-top: 25px;
+  
+}

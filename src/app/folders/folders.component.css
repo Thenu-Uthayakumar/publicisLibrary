@@ -1,48 +1,97 @@
 *{
     margin: 0;
+
+   
 }
 .mat-sidenav-container{
     height: 100%;
+    float: left;
+    z-index:1;
+    background-color: rgb(34, 33, 33);
+    margin-top: 39px;
+    margin-left: 20px;
+   
 }
-.mat-sidenav , mat-sidenav-content{
+.mat-sidenav-content{
     padding: 16px;
 }
-.mat-sidenav{
-    background-color: rgb(24, 23, 23);
+.mat-sidenav-content{
+    background-color: rgb(34, 33, 33);
     color: white;
-    width: 300px;
+    width: 400px;
    
 }
 .menu{
     border: none;
 }
-.mat-icon{
+.matbutton{
     margin: 15px;
-}
-
-input{
-    width: 250px;
-    height: 30px;
-    background-color: rgb(24, 23, 23);
-    color: rgb(177, 174, 170);
-    font-size: 16px;
-    border: none;
-    border: 1px solid rgb(177, 174, 170);
-    float: left;
-}
-.button{
-    float: right;
-    background-color: rgb(24, 23, 23);
-    border: none;
-    color: rgb(177, 174, 170);
-    margin-right: 200px;
     
 }
-h5{
-    font-size: 18px;
-}
 .matbutton{
-    background-color:rgb(24, 23, 23);
+    background-color: rgb(34, 33, 33);
     color: white;
     border: none;
 }
+.matbutton:hover{
+    width: 86px;
+    background-color: #a29367;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid rgb(105, 104, 104);
+    float: left;
+    height: 20px;
+    width: 350px;
+    background: rgb(34, 33, 33);
+    position: relative;
+}
+.button{
+  float: left;
+  position: absolute;
+  width:20px;
+  height: 2px;
+  top:80px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  right: 100px;
+  background-color: rgb(34, 33, 33);
+  color: rgb(170, 166, 166);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(173, 166, 166);
+    font-size: 16px;
+}
+li{
+    display: block;
+   
+    padding: 8px 16px;
+}
+.tableicons{
+    color: #43a047;
+    float: left;
+   
+   
+}
+.tableicons:hover{
+    color:white;
+    cursor: pointer;
+}
+ul li:hover{
+    color: black;
+    background-color: #a29367;
+    cursor: pointer;
+    
+}
+.menudatas{
+    margin-top: 10px;
+    float: left;
+}
+
